@@ -1,0 +1,11 @@
+创建虚拟环境命令：  conda create -n tf23 python=3.8
+激活虚拟环境命令：   activate tf23
+退出虚拟环境命令：   deactivate tf23
+使用命令conda remove -n your_env_name  --all， 即可删除。
+
+
+conda常用命令
+conda list：查看安装了哪些包。
+conda install package_name(包名)：安装包
+conda env list 或 conda info -e：查看当前存在哪些虚拟环境
+conda update conda：检查更新当前conda
